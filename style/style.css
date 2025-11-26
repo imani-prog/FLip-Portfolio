@@ -11,16 +11,24 @@
 }
 
 :root {
-    --bg-color: #081b29;
-    --main-color: #009966;
-    --text-color: #333;
-    --second-text-color: #555;
+    --bg-color: #081b29; /* Deep navy background (already blue-ish, kept same) */
+    --main-color: #0077cc; /* Primary blue */
+    --text-color: #1a1a1a; /* Dark text */
+    --second-text-color: #4d4d4d; /* Lighter secondary text */
     --white-color: #fff;
-    --cover-color: linear-gradient(45deg, #034630, #009966);
-    --pages-color: linear-gradient(90deg, #fff, #eeeeee);
-    --border: 0.125rem solid #009966;
+
+    /* Blue gradient cover */
+    --cover-color: linear-gradient(45deg, #003a75, #0077cc);
+
+    /* Light blue/grey page color */
+    --pages-color: linear-gradient(90deg, #ffffff, #e6f1ff);
+
+    /* Border using main blue */
+    --border: 0.125rem solid #0077cc;
+
     --box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.2);
 }
+
 
 body {
     display: flex;
@@ -439,8 +447,9 @@ body {
 
 .profile-page h3 {
     font-size: 1.3rem;
-    color: #009966;
+    color: #0077cc;
 }
+
 
 .profile-page .social-media {
     margin: 0.6rem 0 0.8rem;
@@ -456,7 +465,7 @@ body {
     border: var(--border);
     border-radius: 50%;
     font-size: 1.3rem;
-    color: #009966;
+    color: #0077cc;
     margin: 0.2rem;
     transition: 0.5s;
 }
@@ -481,7 +490,7 @@ body {
     height: 3rem;
     justify-content: center;
     align-items: center;
-    background: #009966;
+    background: #0077cc;
     border: var(--border);
     border-radius: 0.3rem;
     font-size: 0.9rem;
